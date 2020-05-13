@@ -1,4 +1,5 @@
-# First-Project Text Git and GitHub Júlio Daltro;
+# First-Project 
  First Repository
 
-Text the program.
+Text Git and GitHub;
+by Júlio Daltro.
