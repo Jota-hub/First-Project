@@ -1,0 +1,40 @@
+body{
+    background-color: darkgray;
+    font: normal 15pt Arial;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background-color: black;
+    justify-items: center;
+    color:gray;
+    width: 50%;
+    text-align: center;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
+
+button{
+    background: #e02041;
+    border-radius: 8px;
+    color: #FFF;
+    width: 30%;
+    height: 70px;
+    font-weight: 300;
+    margin-top: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+    line-height: 60px;
+    transition: filter 0.2s;
+}
