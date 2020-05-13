@@ -3,14 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=], initial-scale=1.0">
+    <link rel="stylesheet" href="../global.css">
     <title>First Project</title>
 </head>
 <body>
     <section>
-        <h1> Hello World! </h1>
-        <hr>
-        <p> The first of step of ever programmers </p>
+        <div>
+            <h1> Hello World! </h1>
+            <hr>
+            <p> The first of step of ever programmers </p>
+            <hr>
+            <p> Click on the button! </p>
+        </div>
+        <div>
+            <button id='area' type="submit" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" > Start </button>
+        </div>
     </section>
 
+    <script>
+        var btn = window.document.getElementById('area')
+        function clicar() {
+            btn.innerHTML = "Clicked!"
+            btn.style.background = 'red'
+        }
+        function entrar() {
+            btn.innerHTML = "Inside!"
+            btn.style.background = "purple"
+        }
+        function sair() {
+            btn.innerHTML = "Outside!"
+            btn.style.background = "green"
+        }
+    </script>
+
+    <footer> &copy; JDev </footer>
 </body>
 </html>
